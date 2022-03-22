@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-fswatch-master.flake = false;
+  inputs.src-fswatch-master.ref   = "refs/heads/master";
   inputs.src-fswatch-master.owner = "FedericoCeratto";
-  inputs.src-fswatch-master.ref   = "master";
   inputs.src-fswatch-master.repo  = "nim-fswatch";
   inputs.src-fswatch-master.type  = "github";
   
