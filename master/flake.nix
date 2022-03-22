@@ -1,5 +1,5 @@
 {
-  description = ''Wrapper for the fswatch library.'';
+  description = ''fswatch library wrapper'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-fswatch-master.flake = false;
   inputs.src-fswatch-master.owner = "FedericoCeratto";
-  inputs.src-fswatch-master.ref   = "refs/heads/master";
+  inputs.src-fswatch-master.ref   = "master";
   inputs.src-fswatch-master.repo  = "nim-fswatch";
   inputs.src-fswatch-master.type  = "github";
   
