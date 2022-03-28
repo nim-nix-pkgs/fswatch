@@ -11,6 +11,7 @@
   inputs.src-fswatch-master.ref   = "refs/heads/master";
   inputs.src-fswatch-master.owner = "FedericoCeratto";
   inputs.src-fswatch-master.repo  = "nim-fswatch";
+  inputs.src-fswatch-master.dir   = "";
   inputs.src-fswatch-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
